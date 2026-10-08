@@ -39,3 +39,8 @@ The system successfully detected a knife with 82% confidence in testing.
 ## Pipeline
 
 Image → YOLO26 → Object Detection → Bounding Box → Confidence Score
+## Detection Result
+
+The model successfully detected a knife with 82% confidence.
+
+![Weapon Detection Result](weapon_detection_result.jpg)
