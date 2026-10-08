@@ -22,3 +22,20 @@ A real-time computer vision project for detecting weapons using YOLO and OpenCV.
 
 ```bash
 pip install -r requirements.txt
+## Detection Classes
+
+The model can detect:
+
+- 🔪 Knife
+- 🔫 Handgun
+- 💣 Grenade
+- 😷 Medicinal Mask
+- 😷 Theft Mask
+
+## Example Result
+
+The system successfully detected a knife with 82% confidence in testing.
+
+## Pipeline
+
+Image → YOLO26 → Object Detection → Bounding Box → Confidence Score
